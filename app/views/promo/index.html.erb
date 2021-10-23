@@ -1,0 +1,48 @@
+<div id="wrapper">
+  <div class="top_nav">
+    <%= image_tag "logos/logo_promo.png" %>
+    <div class="links">
+      <p class="button_link"><%= link_to about_path do %> О сервисе <% end %></p>
+      <p class="button_link"><%= link_to posts_path do %> Блог <% end %></p>
+    </div>
+  </div>
+  <div class="perv_block">
+  <img src="/assets/blocks/1_block_promo.png" alt="">
+  <div id="text_1_block">
+    <h1>Научим вас делать<br>стильный интерьер</h1>
+    <p>Мы — медиа-сервис, который<br>поможет вам сделать отличный<br>дизайн интерьера в вашей<br>квартире</p>
+  </div>
+</div>
+  <div class="vtor_block">
+    <h2>Какая от нас польза</h2>
+    <div id="text_2_block">
+      <div id="cards_left_2">
+        <img src="/assets/blocks/left_1.png" alt="">
+        <img src="/assets/blocks/left_2.png" alt="">
+      </div>
+      <div id="cards_right_2">
+        <img src="/assets/blocks/right_1.png" alt="">
+        <img src="/assets/blocks/right_2.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="tret_block">
+    <h2>Кому подойдет сервис</h2>
+    <img src="/assets/blocks/3_block_promo.png" alt="">
+  </div>
+  <div id="chet_block">
+  <div id="email_left">
+    <img src="/assets/blocks/4_block_promo.png" alt="">
+  </div>
+  <div id="email_right">
+    <h2>Оставьте заявку<br>и начните учиться</h2>
+    <div id="email_form">
+      <div id="email_form_icon"></div>
+      <%= render "subscribers/form" %>
+    </div>
+  </div>
+</div>
+  <div id="pyat_block">
+    <img src="/assets/blocks/5_block_promo.png" alt="">
+  </div>
+</div>

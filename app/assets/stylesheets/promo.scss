@@ -1,0 +1,267 @@
+// Place all the styles related to the Promo controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import "reset.css";
+
+@font-face {
+  font-family: 'Gilroy';
+  src: font-url('Gilroy-semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: font-url('Gilroy-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body{
+  background-color: #21222B;
+}
+
+body::-webkit-scrollbar{
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #2E303F;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 3.5px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#wrapper{
+  position: relative;
+  z-index: 2;
+  margin-left: 9.3055vw;
+  margin-right: 9.3055vw;
+}
+
+
+.top_nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5.13vw;
+}
+
+.links{
+  display: inline-flex;
+}
+
+.links p{
+  margin-left: 40px;
+}
+
+.button_link a{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #9F9F9F;
+  text-decoration: none;
+  color: #79b3fe;
+}
+
+.button_link a:hover {
+  color: #fff;
+}
+
+.perv_block{
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-top: 13.19vw;
+}
+
+.perv_block img{
+  max-width: 583px;
+  max-height: 514.5px;
+}
+
+#text_1_block {
+  display: block;
+  margin-top: 2.43vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#text_1_block p{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 2.5vw;
+  color: #909095;
+  margin-top: 1.73vw;
+}
+
+#text_1_block h1{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+.vtor_block{
+  height: auto;
+  margin-top: 13.54vw;
+}
+
+.vtor_block h2{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  color: #FFFFFF;
+}
+
+#text_2_block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  justify-content: space-between;
+  margin-top: 5vw;
+}
+
+#cards_left_2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+#cards_right_2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+#cards_left_2 img{
+  margin-top: 4.375vw;
+  max-width: 564px;
+  max-height: 306px;
+}
+
+#cards_right_2 img{
+  margin-top: 4.375vw;
+  max-width: 564px;
+  max-height: 306px;
+}
+
+.tret_block{
+  height: auto;
+  margin-top: 20vw;
+}
+
+.tret_block h2{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  color: #FFFFFF;
+}
+
+.tret_block img{
+  margin-top: 13vw;
+}
+
+#chet_block{
+  display: flex;
+  justify-content: space-between;
+  background-color: #2E303F;
+  border-radius: 37px;
+  width: 100%;
+  height: 35vw;
+  margin-top: 19.1vw;
+}
+
+#email_left{
+margin: auto 0 auto 5.3vw;
+}
+
+#email_right{
+margin: auto 5.3vw auto 0;
+}
+
+#email_right h2{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+#email_form{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 3.68vw;
+}
+
+#email_form_icon{
+  background-color: #393B4D;
+  background-image: url('/assets/blocks/Profile.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1.38vw 0vw 0vw 1.38vw;
+  width: 4.5vw;
+  height: 5vw;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30.83vw;
+  height: 5vw;
+  margin-left: 4.167vw;
+  background: transparent;
+  border-radius: 0vw 1.38vw 1.38vw 0vw ;
+  border: none;
+  color: #5B5E7B;
+}
+
+form input[type="email"] {
+  background-color: #393B4D;
+  border: none;
+  border-radius: 0vw 1.38vw 1.38vw 0vw ;
+  decoration: none;
+  width: 22vw;
+  color: #5B5E7B;
+  font-family: Gilroy;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+form input[type="email"]:focus {
+  -webkit-appearance: none;
+  -webkit-writing-mode: none;
+  outline-width: 0;
+  outline: none;
+  appearance: none;
+}
+
+form input[type="submit"] {
+  width: 7.5vw;
+  height: 5vw;
+  background-image: url('/assets/blocks/send.png');
+  background-color: transparent;
+  border: none;
+}
+
+#pyat_block{
+  height: auto;
+  margin-top: 20vw;
+  margin-bottom: 5vw;
+}

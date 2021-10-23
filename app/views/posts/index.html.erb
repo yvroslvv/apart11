@@ -1,0 +1,41 @@
+<div id="wrapper">
+  <!-- <p id="notice"><%= notice %></p> -->
+  <div class="top_nav">
+    <%= image_tag "logos/logo_blog.png" %>
+    <div class="links">
+      <p class="button_link"><%= link_to promo_path do %> Промо <% end %></p>
+      <p class="button_link"><%= link_to about_path do %> О нас <% end %></p>
+    </div>
+  </div>
+<div id="top_menu">
+  <h1>Рекомендации</h1>
+  <p id="post_new"><%= link_to 'New Post', new_post_path %></p>
+</div>
+
+    <div id="posts_block">
+      <% @posts.each do |post| %>
+        <div class="post">
+          <div id="post_image">
+            <% post.image %>
+          </div>
+          <div class="info">
+            <div class="tags">
+              <p style="color: white;"><%= post.author %></p>
+              <p style="color: white;"><%= post.name %></p>
+            </div>
+              <p id="post_title"><%= post.title %></p>
+              <p id="post_text"><%= post.content %></p>
+            <div class="actions">
+              <p id="post_show"><%= link_to 'Show', post %></p>
+              <p id="post_edit"><%= link_to 'Edit', edit_post_path(post) %></p>
+              <p id="post_destroy"><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+
+  <br>
+
+</div>

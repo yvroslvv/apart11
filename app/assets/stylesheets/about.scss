@@ -1,0 +1,138 @@
+// Place all the styles related to the About controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import "reset.css";
+
+
+.perv_block_about img {
+    max-width: 583px;
+    max-height: 538px;
+}
+
+.perv_block_about{
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-top: 13.19vw;
+  align-items: center;
+}
+
+.perv_block_about img{
+  max-width: 438px;
+  max-height: 537.3px;
+}
+
+.perv_block_about #text_1_block{
+  margin-right: 0;
+}
+
+.vtor_block_about{
+  margin-top: 25vw;
+}
+
+.vtor_block_about h2{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  color: #FFFFFF;
+}
+.vtor_block_about img{
+  width: 100%;
+  height: 100%;
+  max-width: 1172px;
+  max-height: 1341px;
+  margin-top: 10vw;
+}
+
+.tret_block_about{
+  margin-top: 25vw;
+}
+
+.tret_block_about h2{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  color: #FFFFFF;
+}
+.tret_block_about img{
+  width: 100%;
+  height: 100%;
+  max-width: 1172px;
+  max-height: 179px;
+  margin-top: 10vw;
+}
+
+.chet_block_about{
+  margin-top: 25vw;
+}
+
+.chet_block_about h2{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  color: #FFFFFF;
+}
+.chet_block_about img{
+  width: 100%;
+  height: 100%;
+  max-width: 1172px;
+  max-height: 323px;
+  margin-top: 10vw;
+}
+
+.pyat_block_about{
+  margin-top: 25vw;
+}
+
+.pyat_block_about h2{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  color: #FFFFFF;
+}
+.pyat_block_about img{
+  width: 100%;
+  height: 100%;
+  max-width: 1172px;
+  max-height: 539px;
+  margin-top: 10vw;
+}
+
+.shst_block_about{
+  margin-top: 25vw;
+}
+
+.shst_block_about h2{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  color: #FFFFFF;
+}
+
+.shst_block_about p{
+  margin-top: 4vw;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.shst_block_about img{
+  width: 100%;
+  height: 100%;
+  max-width: 1172px;
+  max-height: 644px;
+  margin-top: 10vw;
+}
+
+.sedm_block_about{
+  height: auto;
+  margin-top: 20vw;
+  margin-bottom: 5vw;
+}
